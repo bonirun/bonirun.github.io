@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="js/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="js/owlcarousel/owl.theme.default.min.css">
+  <script src="js/owlcarousel/owl.carousel.min.js"></script>
+  <!-- <script>
+    $( document ).ready( function() {
+      var transitionEnd = 'transitionend webkitTransitionEnd oTransitionEnd otransitionend';
+      $('.prev').click(function(){
+        $('.hobby-slide').one(transitionEnd).css('left','+='+'245px');
+      });
+      $('.next').click(function(){
+        $('.hobby-slide').one(transitionEnd).css('left','-='+'245px');
+      });
+    } );
+  </script> -->
+</html>
+<body class="profile">
+  <div class="lay-wrap">
+    <div class="intro-section">
+      <div class="content-wrap">
+        <div class="txt-group">
+          <div class="sub-txt">안녕하세요~!</div>
+          <div class="main-txt">달리는.. 개발자 구본희 입니다 :)</div>
+          <div class="desc-txt">
+            러닝, 등산, 등 아웃도어 취미생활에 심히.. 빠져 살아 왔는데요..<br>
+            진로에 집중하지 못하고 놀았던 시간들이 너무 길었지 않았나 싶습니다..ㅎㅎ<br>
+            이제 정신차리고 취미생활에 쏟은 열정 만큼 개발공부 열의에 힘써 보도록 하겠습니다!
+          </div>
+        </div>
+        <ul class="info-list">
+          <li class="info-item">
+            <div class="info-label">email</div>
+            <div class="info-data">
+              <a class="txt-anchor" href="mailto:bonhee.koo@daum.net">bonhee.koo@daum.net</a>
+            </div> 
+          </li>
+          <li class="info-item">
+            <div class="info-label">mbti</div>
+            <div class="info-data">
+              <a class="txt-anchor" href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-infp">INFP</a>
+            </div>
+          </li> 
+          <li class="info-item">
+            <div class="info-label">blog</div>
+            <div class="info-data">
+              <a class="txt-anchor" href="https://velog.io/@bonhee ">https://velog.io/@bonhee </a>
+            </div> 
+          </li>
+          <li class="info-item">
+            <div class="info-label">github</div>
+            <div class="info-data">
+              <a class="txt-anchor" href="https://github.com/bonirun ">https://github.com/bonirun </a>
+            </div> 
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-section">
+      <div class="content-wrap">
+        <div class="main-txt">위코드에 임하기 전 내려놔야 할 것들..</div>
+        <!-- <div class="btn-group">
+          <button class="btn-tag" data-tag="tag1">
+            <span class="btn-txt">러닝</span>
+          </button>
+          <button class="btn-tag" data-tag="tag2">
+            <span class="btn-txt">러닝크루</span>
+          </button>
+          <button class="btn-tag" data-tag="tag4">
+            <span class="btn-txt">트레일러닝</span>
+          </button>
+          <button class="btn-tag" data-tag="tag5">
+            <span class="btn-txt">등산</span>
+          </button>
+          <button class="btn-tag" data-tag="tag6">
+            <span class="btn-txt">백패킹</span>
+          </button>
+        </div> -->
+        <div class="slide-area">
+          <ul class="hobby-slide owl-carousel">
+            <li class="hobby-item " data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby3.jpg">
+              
+            </li>
+            <li class="hobby-item " data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby4.jpg">
+              
+            </li>
+            <li class="hobby-item" data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby1.jpg">
+              
+            </li>
+            <li class="hobby-item" data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby2.jpg">
+              
+            </li>
+            <li class="hobby-item" data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby3.jpg">
+              
+            </li>
+            <li class="hobby-item" data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby4.jpg">
+              
+            </li>
+            <li class="hobby-item " data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby1.jpg">
+              
+            </li>
+            <li class="hobby-item " data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby2.jpg">
+              
+            </li>
+            <li class="hobby-item " data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby3.jpg">
+              
+            </li>
+            <li class="hobby-item " data-tag="tag1 tag2">
+              <img class="hobby-image" src="img/img_hobby4.jpg">
+              
+            </li>
+          </ul>
+          <script>
+           $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+              loop: true,
+              items: 4,
+              autoplay:true,
+              autoplayTimeout:2000,
+              autoplayHoverPause:true
+            });
+          });
+          </script>
+<!--           
+          <div class="nav-group">
+            <button class="btn-nav prev"></button>
+            <button class="btn-nav next"></button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
